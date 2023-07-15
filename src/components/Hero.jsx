@@ -21,7 +21,7 @@ const Hero = () => {
 
       <h1 className='head_text'>
         Summarize Articles with <br className='max-md:hidden' />
-        <span className='cyan_gradient '>OpenAI GPT-4</span>
+        <span className='cyan_gradient '>ZEATON</span>
       </h1>
       <h2 className='desc'>
       Discover Zeaton: The ultimate article simplifier! Say farewell to lengthy texts and welcome concise summaries. Simplify complex content effortlessly with Zeaton's magic. Experience the future of reading today!
