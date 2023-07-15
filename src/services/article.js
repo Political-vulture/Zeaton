@@ -16,12 +16,15 @@ const rapidApiKey = import.meta.env.VITE_RAPID_API_ARTICLE_KEY;
 //     }
 // };
 
-try {
-    const response = await axios.request(options);
-    console.log(response.data);
-} catch (error) {
-    console.error(error);
-}
+(async () => {
+    try {
+        const response = await axios.request(options);
+        console.log(response.data);
+    } catch (error) {
+        console.error(error);
+    }
+})();
+
 export const articleApi = createApi({
     reducerPath: 'articleApi',
     baseQuery: fetchBaseQuery({
