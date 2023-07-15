@@ -11,7 +11,7 @@ const Hero = () => {
         <button
           type='button'
           onClick={() =>
-            window.open("https://github.com/TidbitsJS/Summize", "_blank")
+            window.open("https://github.com/Political-vulture/Zeaton", "_blank")
           }
           className='black_btn'
         >
@@ -21,11 +21,10 @@ const Hero = () => {
 
       <h1 className='head_text'>
         Summarize Articles with <br className='max-md:hidden' />
-        <span className='orange_gradient '>OpenAI GPT-4</span>
+        <span className='cyan_gradient '>OpenAI GPT-4</span>
       </h1>
       <h2 className='desc'>
-        Simplify your reading with Summize, an open-source article summarizer
-        that transforms lengthy articles into clear and concise summaries
+      Discover Zeaton: The ultimate article simplifier! Say farewell to lengthy texts and welcome concise summaries. Simplify complex content effortlessly with Zeaton's magic. Experience the future of reading today!
       </h2>
     </header>
   );

@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 
-  Note: The styles for this gradient grid background is heavily inspired by the creator of this amazing site (https://dub.sh) – all credits go to them! 
-*/
-
 .main {
   width: 100vw;
   min-height: 100vh;
@@ -85,6 +81,11 @@
 
 .orange_gradient {
   @apply bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent;
+}
+.cyan_gradient {
+  background: linear-gradient(to right, #79f1a4, #0e5cad, #79f1a4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .desc {
