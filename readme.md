@@ -1,18 +1,7 @@
-# Build and Deploy Your Own ChatGPT AI SaaS Business with React
-![AI Summarizer](https://i.ibb.co/NK12JG2/Thumbnail-26.png)
+# Zeaton
+This is a web application built using React.js that leverages the power of the GPT-4 language model to summarize articles. It utilizes an API to send articles to the GPT-4 model, which then generates concise and accurate summaries.
 
-## Introduction
-If you're a solo developer in 2023, you have the power to build robust AI software startups! Watch this 1-hour video and make an Article Summarizer Application using OpenAI's GPT model.
- 
-Alongside building this application, you'll also learn how to:
-- setup a ReactJS project using Vite
-- create a responsive, beautiful UI/UX with a nice touch of glass morphism using Tailwind CSS
-- make advanced RTK query API requests that fire on condition
-- save history using the local storage
-- handle form events and catch errors
-- implement copy to clipboard
-- write clean code
-
-## Want to land your dream programming job in 3 - 6 months?
-⭐ JSM Masterclass Experience - https://jsmastery.pro/masterclass
-Become a Software Engineer. Guaranteed.
+# Features
+Article Summarization: Enter the URL or text of an article, and the application will use GPT-4 to generate a summary that captures the essence of the article.
+User-Friendly Interface: The website has a clean and intuitive interface, allowing users to easily interact with the application and obtain summaries.
+Responsive Design: The application is designed to work seamlessly across different devices and screen sizes, providing a consistent user experience.
